@@ -1,0 +1,154 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #2e2e2e;
+    color: #fff;
+}
+
+header {
+    background-color: #1f1f1f;
+    padding: 10px 20px;
+    color: white;
+    border-bottom: 2px solid #39b54a; /* Green outline */
+}
+
+header nav .logo h1 {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav .nav-links {
+    display: inline;
+}
+
+header nav .nav-links li {
+    display: inline;
+    margin-right: 15px;
+}
+
+header nav .nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    background-color: #1d3557;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero .cta-button {
+    background-color: #39b54a;
+    padding: 15px 30px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.hero .cta-button:hover {
+    background-color: #e63946;
+}
+
+.plans {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #333;
+    border-top: 2px solid #39b54a; /* Green outline */
+    transition: background 0.5s ease;
+}
+
+.plans-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.plan {
+    background-color: #444;
+    padding: 20px;
+    width: 250px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 2px solid #39b54a; /* Green outline */
+}
+
+.plan h3 {
+    margin-bottom: 15px;
+    color: #39b54a;
+}
+
+.plan p {
+    margin-bottom: 15px;
+}
+
+.plan button {
+    background-color: #39b54a;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.plan button:hover {
+    background-color: #e63946;
+}
+
+.billing {
+    display: none;
+    padding: 40px 20px;
+    background-color: #1f1f1f;
+}
+
+.billing.hidden {
+    display: none;
+}
+
+.billing form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 8px;
+    border: 2px solid #39b54a; /* Green outline */
+}
+
+.billing input {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #444;
+    color: white;
+    border: 1px solid #39b54a; /* Green outline */
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #1f1f1f;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    border-top: 2px solid #39b54a; /* Green outline */
+}
+
+/* Minecraft Background for the Plans Section */
+.plans-background {
+    background-image: url('minecraft_4289159_lrg.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 0.5;
+}
